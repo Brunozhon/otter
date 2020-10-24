@@ -9,3 +9,9 @@ a {
   color: black;
   text-decoration: underline;
 }
+[data-margin] {
+  margin: attr(data-margin)
+}
+[data-padding] {
+  padding: attr(data-padding)
+}
