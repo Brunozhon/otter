@@ -10,10 +10,10 @@ Bruno CSS is a CSS & JavaScript platform for making webpages.
 <html>
   <head>
     <!-- From my cdn (Recommended) -->
-    <link rel="stylesheet" href="https://brunozhon.github.io/otter/cdn/bcss/major-version.minor-version.patch-version/b.min.css" />
+    <link rel="stylesheet" href="https://brunozhon.github.io/otter/cdn/bcss/major-version.minor-version.patch-version/b.min.css" /> <!-- I use this method for this repostory -->
+    <script type="text/css" src="https://brunozhon.github.io/otter/cdn/bcss/major-version.minor-version.patch-version/b.min.css"></script>
     <!-- Download (Not recommended for low-memory devices) -->
     <link rel="stylesheet" href="path/to/css/file/b.min.css" />
-    <!-- Insert using script -->
     <script type="text/css" src="path/to/css/file/b.min.css"></script>
   </head>
   <body>
@@ -29,3 +29,4 @@ Bruno CSS is a CSS & JavaScript platform for making webpages.
 | and continue on the next. Butthistextwillnotbecauseitisthedefaultbeh|aviorofcssitbreakesatspacesanditisveryveryveryveryveryveryveryveryveryveryverylonglonglonglong
 ```
 
+[Surport this project!](https://github.com/Brunozhon/otter)
