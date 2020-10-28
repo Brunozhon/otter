@@ -29,4 +29,18 @@ Bruno CSS is a CSS & JavaScript platform for making webpages.
 | and continue on the next. Butthistextwillnotbecauseitisthedefaultbeh|aviorofcssitbreakesatspacesanditisveryveryveryveryveryveryveryveryveryveryverylonglonglonglong
 ```
 
+All diffrent kinds of BCSS:
+
+```html
+<html>
+  <head>
+    <!-- 1.0.0 release -->
+    <link rel="stylesheet" href="https://brunozhon.github.io/otter/cdn/bcss/1.0.0/b.min.css" /> <!-- BCSS default -->
+    <link rel="stylesheet" href="https://brunozhon.github.io/otter/cdn/bcss/1.0.0/colors.css" /> <!-- BCSS colors -->
+    <!-- 1.1.0 release -->
+    <link rel="stylesheet" href="https://brunozhon.github.io/otter/cdn/bcss/1.1.0/2019/2019.css" /> <!-- BCSS 2019 top colors -->
+  </head>
+</html>
+```
+
 [Surport this project!](https://github.com/Brunozhon/otter)
