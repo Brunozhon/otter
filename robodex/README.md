@@ -2,7 +2,7 @@
 
 ## Ideas for some Robocats
 
-If you have an idea of a new Robocat, please add a picture like this
+If you have an idea of a new Robocat, please add a picture with *at least* some parts like
 
 ![Robocat](robocat.png)
 
