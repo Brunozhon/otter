@@ -6,13 +6,20 @@
   </head>
   <body ng-app="app">
     <a href="#/!">Home</a>
+    <a href="#!intro"></a>
     <div ng-view></div>
     <script>
       var app = angular.module("app", ["ngRoute"]);
       app.config(function($routeProvider) {
         $routeProvider.when("/", {
           templateUrl: "begin.html"
+        }).when("/intro", {
+          templateUrl: "intro.html",
+          controller: "exam1"
         });
+      });
+      app.controller("exam1", function($scope) {
+        $scope.name = "John Doe";
       });
     </script>
   </body>
