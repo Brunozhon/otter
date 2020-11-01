@@ -4,6 +4,7 @@
 /* Mobile first */
 [class*="col-"] {
   width: 100%;
+  display: block;
 }
 .show-valid.ng-valid, .show-invalid.ng-invalid {
   display: block;
@@ -24,6 +25,7 @@
   .col-10 {width: 81.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
+  [class*="col-"] {display: inline;}
 }
 @media only screen and (min-width: 768px) {
   .col-1 {width: 8.33%;}
@@ -38,6 +40,7 @@
   .col-10 {width: 81.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
+  [class*="col-"] {display: inline;}
 }
 @media only screen and (min-width: 992px) {
   .col-1 {width: 8.333%;}
@@ -52,6 +55,7 @@
   .col-10 {width: 81.333%;}
   .col-11 {width: 91.666%;}
   .col-12 {width: 100%;}
+  [class*="col-"] {display: inline;}
 }
 @media only screen and (min-width: 1200px) {
   .col-1 {width: 8.333%;}
@@ -66,4 +70,5 @@
   .col-10 {width: 81.333%;}
   .col-11 {width: 91.666%;}
   .col-12 {width: 100%;}
+  [class*="col-"] {display: inline;}
 }
