@@ -9,6 +9,8 @@
       app.config(function($routeProvider) {
         $routeProvider.when("/", {
           templateUrl: "begin.html"
+        }).when("/rows", {
+          templateUrl: "tryactcols.html"
         });
       });
     </script>
@@ -17,6 +19,7 @@
   </head>
   <body ng-app="app">
     <a href="#/!">Home</a>
+    <a href="#!rows">Try act - cols</a>
     <div ng-view></div>
   </body>
 </html>
