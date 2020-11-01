@@ -3,8 +3,14 @@
     <title>ACT with AngularJS</title>
     <!-- Load AngularJS -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
     <script>
-      var app = angular.module("app", []);
+      var app = angular.module("app", ["ngRoute"]);
+      app.config(function($routeProvider) {
+        $routeProvider.when("/", {
+          templateUrl: "begin.html"
+        });
+      });
     </script>
     <!-- Load ACT! -->
     <link rel="stylesheet" href="https://brunozhon.github.io/otter/act/act.min.css" />
