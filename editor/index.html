@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Bruser</title>
+    <title>Commits</title>
     <style>
       body {
         font-family: Arial;
@@ -95,7 +95,7 @@
           <span class="dot" style="background:#5AC05A"></span>
         </div>
         <div class="column middle">
-          <input type="url" value="https://brunozhon.github.io/otter/editor/newtab/" />
+          Commit code: <input type="url" value="" id="commiturl" />
         </div>
         <div class="column right">
           <div style="float: right">
@@ -106,10 +106,12 @@
         </div>
       </div>
       <div class="content">
-        <br />
-        <br />
-        <br />
+        <h1>Commit workspace</h1>
       </div>
     </div>
+    <script>
+      var commit = document.getElementById("commiturl")
+      commit.value = Math.random() * 100000;
+    </script>
   </body>
 </html>
