@@ -44,3 +44,8 @@ All diffrent kinds of BCSS:
 ```
 
 [Surport this project!](https://github.com/Brunozhon/otter)
+
+Versions:
+
+- [1.0 zip](https://github.com/Brunozhon/otter/archive/v1.0.zip) [1.0 tar.gz](https://github.com/Brunozhon/otter/archive/v1.0.tar.gz)
+- [1.1 zip](https://github.com/Brunozhon/otter/archive/v1.1.zip) [1.0 tar.gz](https://github.com/Brunozhon/otter/archive/v1.1.tar.gz)
