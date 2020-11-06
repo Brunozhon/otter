@@ -1,46 +1,8 @@
 <html>
   <head>
     <title>Game</title>
-    <style>
-      canvas {background-color: #f1f1f1;}
-    </style>
   </head>
   <body onload="start()">
-    <script>
-      var gamePiece;
-      var gameArea = {
-        area: document.createElement("canvas"),
-        start: function() {
-          this.area.width = 480;
-          this.area.height = 270;
-          this.ctx = this.area.getContext("2d");
-          document.body.appendChild(this.area);
-          this.time = setInterval(updateGA, 20);
-        },
-        clear: function() {
-          this.context.clearRect(0, 0, this.area.width, this.area.height)
-        }
-      }
-      function start() {
-        gamePiece = new Player(30, 30, "red", 10, 120);
-        gameArea.start();
-      }
-      
-      function Player(width, height, color, x, y) {
-        this.width = width;
-        this.height = height;
-        this.x = x;
-        this.y = y;
-        this.update = function() {
-          ctx = gameArea.ctx;
-          ctx.fillStyle = color;
-          ctx.fillRect(this.x, this.y, this.width, this.height);
-        }
-      }
-      function updateGA() {
-        gameArea.clear();
-        gamePiece.update();
-      }
-    </script>
+    <h1>Select a game</h1>
   </body>
 </html>
