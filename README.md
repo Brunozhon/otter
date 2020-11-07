@@ -1,6 +1,6 @@
 # otter
 
-All of the ot~t~**h**er stuff, including Bruno CSS.
+All of the otter stuff, including Bruno CSS.
 
 ## B.CSS (Bruno CSS)
 
